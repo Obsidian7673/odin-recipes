@@ -11,14 +11,15 @@ body {
   background-color: #44475a;
 }
 
-h1 {
-  font-size: 64px;
-}
-
 .heading {
   padding: 1rem;
   text-align: center;
   background-color: #282a36;
+
+  h1 {
+    margin: 1vh 0;
+    font-size: 5vw;
+  }
 }
 
 .recipe-image {
