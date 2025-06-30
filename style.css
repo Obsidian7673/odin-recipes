@@ -9,103 +9,83 @@
 
 body {
   background-color: #44475a;
+  text-align: center;
+}
+
+.content {
+  margin: 8vw auto;
+  width: 80vw;
+}
+
+.card {
+  background-color: #282a36;
+}
+
+h1,
+h2,
+h3 {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 4vw;
+}
+
+h3 {
+  font-size: 3vw;
 }
 
 .attribution {
+  padding-bottom: 1rem;
   color: #c8c8c2
 }
 
 .heading {
-  padding: 1rem;
-  text-align: center;
   background-color: #282a36;
-
-  h1 {
-    margin: 1vh 0;
-    font-size: 5vw;
-  }
 }
 
-.recipe-image {
-  margin: 5vh auto;
-  width: 66vw;
+.recipe-image img {
+  border: .5rem solid #44475a;
+  margin: 3rem;
+  margin-bottom: 0px;
+  width: calc(100% - 6rem);
+}
 
-  background-color: #282a36;
-
-  img {
-    border: 1rem solid #282a36;
-    width: 100%;
-  }
-
-  .attribution {
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    text-align: right;
-  }
+.recipe-image .attribution {
+  padding-top: .5rem;
 }
 
 .description {
-  margin: 5vh auto;
-  padding: 1rem;
-  width: 66vw;
-
-  background-color: #282a36;
-  text-align: center;
-
-  h2 {
-    margin-bottom: 1rem;
-    font-size: 3vw;
-  }
+  margin-top: 8vw;
 }
 
 .recipe {
-  margin: 5vw auto;
-  width: 66vw;
+  margin: 2vw auto;
   display: flex;
-  column-gap: 5vw;
+  column-gap: 2vw;
+}
 
-  .ingredients {
-    padding: 1rem;
-    width: 33%;
+.text {
+  padding: 0 5vw 2vw 5vw;
+}
 
-    background-color: #282a36;
+ul,
+ol {
+  text-align: justify;
 
-    h3 {
-      margin-bottom: 1rem;
-      text-align: center;
-      font-size: 3vw;
-    }
-
-    ul {
-      width: 80%;
-      margin: 0 auto;
-
-      li {
-        margin-bottom: 1rem;
-      }
-    }
+  li {
+    margin-bottom: 1rem;
   }
+}
 
-  .directions {
-    padding: 1rem;
-    width: 66%;
+.ingredients {
+  width: 33%;
+}
 
-    background-color: #282a36;
-
-    h3 {
-      margin-bottom: 1rem;
-      text-align: center;
-      font-size: 3vw;
-    }
-
-    ol {
-      width: 80%;
-      margin: 0 auto;
-      text-align: justify;
-
-      li {
-        margin-bottom: 1rem;
-      }
-    }
-  }
+.directions {
+  width: 66%;
 }
