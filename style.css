@@ -9,7 +9,6 @@
 
 body {
   background-color: #44475a;
-  text-align: center;
 }
 
 .content {
@@ -18,7 +17,10 @@ body {
 }
 
 .card {
+  border: solid .2vw #6272a4;
+  border-radius: 1vw;
   background-color: #282a36;
+  text-align: center;
 }
 
 h1,
@@ -46,10 +48,12 @@ h3 {
 
 .heading {
   background-color: #282a36;
+  text-align: center;
+  border-bottom: solid .2vw #6272a4;
 }
 
 .recipe-image img {
-  border: .5rem solid #44475a;
+  border: .5rem solid #363848;
   margin: 3rem;
   margin-bottom: 0px;
   width: calc(100% - 6rem);
@@ -88,4 +92,20 @@ ol {
 
 .directions {
   width: 66%;
+}
+
+.home:link,
+.home:visited {
+  display: inline-block;
+  padding: 1rem 0;
+  width: 33%;
+  margin: 0;
+  font-size: 2vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.home:hover,
+.home:active {
+  background-color: #363848;
 }
