@@ -47,9 +47,16 @@ h3 {
 }
 
 .heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  min-height: 20vh;
+
   background-color: #282a36;
-  text-align: center;
   border-bottom: solid .2vw #6272a4;
+  justify-content: center;
+  align-items: center;
 }
 
 .recipe-image img {
@@ -107,5 +114,32 @@ ol {
 
 .home:hover,
 .home:active {
+  background-color: #363848;
+}
+
+.recipe-link-container {
+  display: flex;
+  margin-bottom: 2vw;
+  gap: 2vw;
+}
+
+.recipe-link-container img {
+  width: 15vw;
+  margin-left: auto;
+  padding: .2vw;
+}
+
+.recipe-link:link,
+.recipe-link:visited {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  text-decoration: none;
+}
+
+.recipe-link:hover,
+.recipe-link:active {
   background-color: #363848;
 }
